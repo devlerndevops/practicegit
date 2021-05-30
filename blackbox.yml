@@ -7,7 +7,7 @@ modules:
       valid_status_codes: [200,302,304]  # Defaults to 2xx
       method: GET
       #headers:
-              #Host: stageemm.wrtual.in
+              #Host: 
               #Accept-Language: en-US
         #Origin: wrtual.in
         # Content-Type: application/json
@@ -24,7 +24,7 @@ modules:
           #regexp: '.*'
           #fail_if_header_not_matches:
           #- header: Access-Control-Allow-Origin
-          #regexp: '(\*|wrtual\.in)'
+          #regexp: '(\*|wr\.in)'
       tls_config:
         insecure_skip_verify: true
       preferred_ip_protocol: "ip4" # defaults to "ip6"
